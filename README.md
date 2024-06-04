@@ -1,5 +1,14 @@
 # CopilotKit Supabase Edge Function
 
-supabase functions deploy --no-verify-jwt openaikit
+Edge function for Supabase to handle CopilotRuntime endpoints
 
-supabase secrets set --env-file ./supabase/.env.local
+
+(https://www.copilotkit.ai/)
+
+(https://supabase.com/docs/guides/functions)
+
+### Deploy edge function
+`supabase functions deploy --no-verify-jwt openaikit`
+
+### Set env file
+`supabase secrets set --env-file ./supabase/.env.local`
